@@ -1,0 +1,152 @@
+body.light {
+    --text: dark;
+    --background: white;
+}
+
+body.dark {
+    --text: white;
+    --background: black;  
+}
+
+html body{
+    color: var(--text);
+    background: var(--background);
+}
+
+
+h1,
+h4 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+p,
+li,
+a {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+}
+
+
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.navbar #theme-switcher {
+    color: white;
+    text-decoration: none;
+}
+
+/* SOBRE */
+
+.sobre h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.sobre #sobre-foto {
+    width: 150px;
+}
+
+.sobre .sobre-texto {
+    margin-left: -40px;
+}
+
+.sobre li {
+    list-style-type: square;
+}
+
+.sobre ul {
+    padding-left: 20px;
+}
+
+/* FORMAÇÃO */
+
+.formacao h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.formacao h4 {
+    margin: 0px;
+    font-size: 19px;
+}
+
+.formacao-item {
+    margin-bottom: 40px;
+}
+
+.formacao-item p {
+    margin: 0;
+}
+
+.formacao-logo {
+    width: 48px;
+}
+
+.formacao-texto {
+    margin-left: -160px;
+}
+
+/* PORTFOLIO */
+
+.portfolio h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.portfolio .github-botao {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 30px;
+}
+
+.portfolio #imagem-dashboard {
+    width: 100%;
+}
+
+/* CONTATO */
+
+.contato h1 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.contato p {
+    margin-bottom: 20px;
+}
+
+.contato a {
+    display: inline-block;
+    max-width: 90px;
+}
+
+#contato-gmail {
+    width: 60px;
+    margin-right: 10px;
+}
+
+#contato-linkedin {
+    width: 60px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+#contato-whatsapp {
+    width: 80px;
+}
+
+.contato textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contato .contato-botao {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contato .carousel {
+    max-height: 100px;
+}
